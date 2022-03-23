@@ -5,6 +5,29 @@ body{
 	background-color: #242424;
 }
 
+
+.download{
+	background-color: #1b61b1; 
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
+
+.download:hover{
+	background-color: #6ac8ff; 
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+	font-size: 105%;
+}
+
+da{
+	color: #ffffff;
+	font-size: large;
+	text-align: center;
+}
+
 h1{
 	color:#FFF;
 }
