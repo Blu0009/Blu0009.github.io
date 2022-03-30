@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<script>
+
+function losuj() {
+
+    document.getElementById("img").style.display="inline";
+    var img = document.getElementById("img");
+
+    function generateRandomIntegerInRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+let pattern = generateRandomIntegerInRange(1, 27);
+document.getElementById("start").style.display="none";
+document.getElementById("label").style.display="none";
+//document.getElementById("img").style.display="none";
+//alert(pattern);
+setTimeout(check,3000);
+
+img.src="random.gif";
+
+function check() {
+
+    
+
+if(pattern==1){
+    img.src = "images/1.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==2){
+    img.src = "images/2.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==3){
+    img.src = "images/3.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==4){
+    img.src = "images/4.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==5){
+    img.src = "images/5.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==6){
+    img.src = "images/6.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==7){
+    img.src = "images/7.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==8){
+    img.src = "images/8.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==9){
+    img.src = "images/9.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==10){
+    img.src = "images/10.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==11){
+    img.src = "images/11.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==12){
+    img.src = "images/12.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==13){
+    img.src = "images/13.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==14){
+    img.src = "images/14.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==15){
+    img.src = "images/15.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==16){
+    img.src = "images/16.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==17){
+    img.src = "images/17.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==18){
+    img.src = "images/18.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==19){
+    img.src = "images/19.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("WYGRANA");
+document.getElementById("label").style.color="green";
+}
+else if(pattern==20){
+    img.src = "images/20.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==21){
+    img.src = "images/21.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==22){
+    img.src = "images/22.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==23){
+    img.src = "images/23.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==24){
+    img.src = "images/24.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==25){
+    img.src = "images/25.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==26){
+    img.src = "images/26.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else if(pattern==27){
+    img.src = "images/27.png";
+    document.getElementById("img").style.display="inline";
+    document.getElementById("label").style.display="inline";
+document.getElementById("label").innerHTML=("PRZEGRANA");
+document.getElementById("label").style.color="red";
+}
+else{
+    alert("BŁĄD KRYTYCZNY");
+}
+document.getElementById("start").style.display="inline";
+}
+
+
+}
+</script>
+<body>
+  
+    <lb id="label">
+    
+    </lb>
+
+    
+<div class="center">
+    
+<img src="start.png" id="img">
+</div>
+<center>
+    <button onclick="losuj()" id="start">GRAJ</button>
+        </center>
+
+
+    
+</body>
+
+</html>
