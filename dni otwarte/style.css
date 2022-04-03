@@ -1,14 +1,14 @@
 body{
     margin: 150px;
     padding: 0px;
-    background-color: aquamarine;
+    background-color: #7fffd4;
 }
 
 
 lb{
     margin: 50px;
     font-size: 50px;
-    color: black;
+    color: #000000;
     display: none;
     align-items: center;
     padding-left: 605px;
